@@ -8,7 +8,7 @@
     "start": "node build/server.js",
     "dev": "npx tsx watch src/server.ts",
     "lint": "npx eslint src --ext .ts --fix",
-    "knex": "node --loader tsx ./node_modules/.bin/knex",
+    "knex": "npx tsx ./node_modules/.bin/knex",
     "test": "npx vitest"
   },
   "engines": {
